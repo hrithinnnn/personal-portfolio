@@ -1,4 +1,4 @@
-html, body { height: 172%; }
+html, body { height: fit-content; }
 body {
 	/* background-color:#FFFFFF; */
 	margin:10px;
