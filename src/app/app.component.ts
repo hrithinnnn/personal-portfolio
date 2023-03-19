@@ -42,7 +42,7 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     var a = Array.from(document.getElementsByTagName('body'))[0];
-    a.style.overflow='hidden';
+    a.style.overflow='scroll';
     setTimeout(() => this.loading=false, 2000);
   }
 
