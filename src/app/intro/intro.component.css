@@ -3,6 +3,7 @@ body {
     background-color: black;
     color: aliceblue;
     font-family: 'Noto Sans', sans-serif;
+    overflow: scroll;
 }
 
 .title {
