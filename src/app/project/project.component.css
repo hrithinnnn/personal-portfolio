@@ -1,0 +1,97 @@
+.proj-card {
+    /* border: solid; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.weather {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../assets/proj-images/weather.jpg");
+    filter: brightness(60%);
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    background-size: cover;
+    /* scale: 3; */
+    /* border-radius: 10px; */
+}
+
+.data-down {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../assets/proj-images/data.jpg");
+    filter: brightness(40%);
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    background-size: cover;
+    /* scale: 3; */
+    /* border-radius: 10px; */
+}
+
+.database {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../assets/proj-images/database.jpeg");
+    filter: brightness(80%);
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    background-size: cover;
+    /* scale: 3; */
+    /* border-radius: 10px; */
+}
+
+.ML {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../assets/proj-images/ML.jpg");
+    filter: brightness(80%);
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    background-size: cover;
+    /* scale: 3; */
+    /* border-radius: 10px; */
+}
+
+.translator {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../assets/proj-images/translate.jpg");
+    filter: brightness(40%);
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    background-size: cover;
+    /* scale: 3; */
+    /* border-radius: 10px; */
+}
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.content-container {
+    position: absolute;
+    top: 110px;
+    transition: all 0.2s;
+}
+
+.small-card:hover {
+    scale: 1.05;
+    /* transform: translate(13px); */
+}
+
+.big-card:hover {
+    scale: 1.05;
+    transform: translate(13px);
+}

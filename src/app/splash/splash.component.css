@@ -1,0 +1,104 @@
+/* For future ref */
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+    /* height: 100px; */
+    position: absolute;
+    top: 100px;
+    left:-4px;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+  
+.banner {
+    position: relative;
+    /* background-image: url('../../assets/bg-texture.jpg'); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .image {
+    filter: sepia(100%);
+    transition: all 0.2s;
+    position: absolute;
+    /* cursor:crosshair; */
+    margin-left: 50px;
+  }
+
+  .image:hover {
+    filter: unset;
+    scale: 1.08;
+  }
+  
+.content {
+
+  position: absolute;
+  top: 141px;
+  left: 550px;
+}
+
+
+/* Name */
+
+.name {
+
+  opacity: 0.8;
+
+  font-size: 110px;
+  font-weight:700;
+  letter-spacing: 2px;
+  /* font-style:; */
+  font-family: 'Noto Serif Lao', serif;
+}
+
+.name .fname {
+  padding-right: 10px;
+}
+
+.name .lname {
+  padding-top: 110px;
+  padding-left: 200px;
+  display: block;
+}
+
+.line {
+  min-width: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: solid 3.5px;
+  transition: all 0.4s;
+  font-weight:500;
+  font-style: italic;
+  /* letter-spacing: 2px; */
+  cursor:default;
+}
+
+.line:hover {
+  border-color: #045DE9;
+  /* color: rgb(96, 96, 255); */
+  background: -webkit-linear-gradient(0deg, #045DE9,#000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
