@@ -3,8 +3,8 @@
     color: aliceblue;
     font-family: 'Noto Sans', sans-serif;
 }
-html, body { height: fit-content; 
-                width: fit-content;}
+/* html, body { height: fit-content; 
+                width: fit-content;} */
 .title {
     font-size: 40px;
     padding-left: 75px;
@@ -46,14 +46,14 @@ html, body { height: fit-content;
     background-image: url("../../assets/contacts/mail.png");
     background-size: cover;
     top: 225px;
-    left:1200px;
+    left:1000px;
 }
 
 .resume{
     background-image: url("../../assets/contacts/resume.png");
     background-size: cover;
     top: 400px;
-    left:1200px;
+    left:1000px;
 }
 .text-left{
     position: absolute;
@@ -84,7 +84,7 @@ button:hover{
     position: absolute;
     text-align: center;
     top:560px;
-    left:1150px;
+    left:950px;
 }
 
 button{
