@@ -1,4 +1,4 @@
-html, body { height: fit-content; }
+html, body { height: fit-content; overflow: scroll;}
 body {
 	/* background-color:#FFFFFF; */
 	margin:10px;
